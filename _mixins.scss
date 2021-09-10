@@ -1,0 +1,25 @@
+@mixin respond-super-mini-phone {
+  @media (max-width: 330px) {
+    @content;
+  }
+}
+@mixin respond-mini-phone {
+  @media (max-width: 400px) {
+    @content;
+  }
+}
+@mixin respond-phone {
+  @media (max-width: 600px) {
+    @content;
+  }
+}
+@mixin respond-tabPort {
+  @media (max-width: 900px) {
+    @content;
+  }
+}
+@mixin respond-tabLand {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
